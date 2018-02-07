@@ -1,0 +1,27 @@
+{
+  "name": "michnaadam33/speed",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Adam Michna",
+      "email": "michnaadam33@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/App"
+    },
+    "classmap": [
+      "app/App.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": ">=7.1",
+    "nategood/commando": "*"
+  }
+}
